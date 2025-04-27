@@ -1,0 +1,47 @@
+Basic Git Commands:
+1. 'git init' - Initialize a new Git repository.
+2. 'git status' - Check the status of your working directory.
+3.1 'git add <file>' - Stage changes for commit.
+3.2 'git add .' - Add all the files changes for commit.
+3.3 'git reset <file>' - Stage changes for commit.
+4. 'git log' - Get list of commits
+5. 'git commit -m "message"' - Commit staged changes with a message. Always do git add before git commit 
+6.1 'git reset --soft HEAD~1'  # Undo the commit but keep the changes staged
+6.2 'git reset HEAD~1'         # Undo the commit and unstage the changes
+6.3 'git reset --hard HEAD~1'  # Undo the commit and discard all changes (caution!)
+7. 'touch .gitignore' - Create a .gitignore file in your repository root
+.gitignore file tells Git which files or directories to ignore in a project
+
+# Ignore specific files
+config.json
+secrets.txt
+
+# Ignore file types
+*.log
+*.tmp
+
+# Ignore directories
+node_modules/
+dist/
+build/
+
+# Ignore all files in a directory but keep the directory
+logs/*
+!logs/.gitkeep
+8. 'git checkout <branch>` - Switch to a different branch.
+9. 'git remote set-url origin https://USERNAME:TOKEN@github.com/USERNAME/REPOSITORY.git
+
+
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/8sriramlmarirs8/TrainingGIT2.git
+git push -u origin main
+
+--- Use 'q' to esc from the terminal
+
+10. 'git branch' - To know which branch are you in currently
+
+
+
+
