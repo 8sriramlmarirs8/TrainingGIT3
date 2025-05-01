@@ -39,9 +39,4 @@ git remote add origin https://github.com/8sriramlmarirs8/TrainingGIT2.git
 git push -u origin main
 
 --- Use 'q' to esc from the terminal
-
 10. 'git branch' - To know which branch are you in currently
-
-
-
-
